@@ -1,0 +1,5 @@
+# Rules reference: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+MD013: false # removes line length restriction
+MD033: # no-inline-html
+  allowed_elements: 
+    - br

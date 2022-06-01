@@ -1,0 +1,13 @@
+version: "3"
+services:
+  site:
+    environment:
+      - JEKYLL_ENV=docker
+    command: jekyll serve --force_polling --config  _config.yml,_config.docker.yml
+    # Ruby 3.0+ stops including webrick as dependency thus jekyll latest version does not work. 
+    # Temporary workaround is to use jekyll version that has Ruby 2.x
+    image: jekyll/jekyll:4.1.0
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - 4000:4000

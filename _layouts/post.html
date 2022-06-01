@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Insight</title>
+  <link rel="icon" href="/assets/images/favicon.ico.png" type="image/x-icon">
+  <link href="/assets/css/rouge-github.css" rel="stylesheet">
+  <link href="/assets/css/custom.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"  rel="stylesheet">
+
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<body>
+  {% include header.html %}
+  
+  {% include menu.html %}	 
+
+  <div class="container">
+    <main>
+      <article>
+        <h2>{{ page.title }}</h2>
+        {% include published.html %}
+        {% include tags.html %}
+        {{ content }}
+
+      </article>
+    </main>
+  </div>
+
+  {% include scripts.html %}
+</body>
+</html>

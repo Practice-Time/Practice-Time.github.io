@@ -1,0 +1,10 @@
+collections:
+  docs:
+    output: true
+highlighter: rouge
+plugins:
+  - jekyll-feed
+title: WA Apps & Infra - Practice Playbook
+description: This is our playbook. It is a guide to our patterns, processes and principles. It's filled with things we've learned based on our own experience and from others.
+author: Insight
+permalink: /:year/:month/:day/:title:output_ext

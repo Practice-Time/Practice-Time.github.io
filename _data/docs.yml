@@ -1,0 +1,39 @@
+- title: Team
+  docs:
+  - notes.html
+  - index.html
+  - pre-sales.html
+  - pal-setup.html
+  - recruiting.html
+  - tips.html
+
+- title: Rituals
+  docs:
+  - ceremonies.html
+  - focus.html
+  - team-health-check.html
+  - back-2-base.html
+
+- title: Contribute
+  docs:
+  - okr.html
+  - our-ask.html
+  - contribute.html
+  - new-starter.html
+  - certs.html
+
+- title: Links
+  docs:
+  - links.html
+  - glossary.html
+  - time-off-in-lieu.html
+  - expenses.html
+  - what-is-a-playbook.html
+  - why.html
+
+- title: Integrations
+  docs:
+  - bpoint.html
+
+  
+
